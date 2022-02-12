@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="CreditScoreApplication:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/CreditScoreApplication_jar</output-path>
+    <root id="archive" name="CreditScoreApplication.jar">
+      <element id="module-output" name="CreditScoreApplication" />
+    </root>
+  </artifact>
+</component>
