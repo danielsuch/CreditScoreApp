@@ -16,6 +16,7 @@ import java.util.Scanner;
                 System.out.println("1 - Zaloguj się");
                 System.out.println("2 - Załóż konto osobiste");
                 System.out.println("3 - Załóż konto biznesowe");
+                System.out.println("linia testowa");
                 System.out.println("4 - Zakończ");
 
 
