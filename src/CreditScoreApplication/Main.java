@@ -1,10 +1,8 @@
 package CreditScoreApplication;
 
-import CreditScoreApplication.Calculator.BusinessCalculateCreditScore;
 import CreditScoreApplication.Calculator.BusinessCalculator;
 import CreditScoreApplication.Calculator.PersonalCalculator;
 
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Scanner;
 
@@ -33,7 +31,7 @@ import java.util.Scanner;
                 int userChoice = scanner.nextInt();
 
                 switch (userChoice) {
-//                case 1 ->
+                    case 1 -> SuperUserDemo.demoAuthenticateSuperuser();
                     case 2 -> clients.addClient();
 //                    case 3 -> shouldContinue = false;
                     case 4 -> personalCalculator.printCalculateCreditScore();
