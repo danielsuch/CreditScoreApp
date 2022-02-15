@@ -2,7 +2,6 @@ package CreditScoreApplication;
 
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class User<user>
@@ -19,9 +18,7 @@ public class User<user>
     private String fullName = name + "" + middleName + "" + lastName;
     Scanner input = new Scanner(System.in);
 
-
-
-    User()
+    public User()
     {
 
     }
@@ -111,6 +108,19 @@ public class User<user>
     public String getPassword()
     {
         return password;
+    }
+
+
+    // create demo superuser
+    public User(String name, String middleName, String lastName, String phoneNumber, String email, String password, boolean isActive, String fullName) {
+        this.name = "John";
+        this.middleName = "Johnny";
+        this.lastName = "Doe";
+        this.phoneNumber = "123321123";
+        this.email = "johndoe@xd.com";
+        this.password = "secret";
+        this.isActive = true;
+        this.fullName = "John Johnny Doe";
     }
 
 }
