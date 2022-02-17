@@ -48,7 +48,7 @@ public class User<user>
     public void setMiddleName()
     {
         boolean hasLastName = false;
-        System.out.println("Czy posiadasz drugie imię?");
+        System.out.println("Czy posiadasz drugie imię? TAK/NIE");
         String answer = input.nextLine();
         if (answer.toLowerCase().equals("tak"))
         {
@@ -79,10 +79,7 @@ public class User<user>
     public void setPassword() throws FileNotFoundException
     {
         System.out.println("Podaj hasło: ");
-        PrintWriter write = new PrintWriter("C:\\Users\\suchd\\Documents\\passwords.txt");
         password = input.nextLine();
-        write.println(password);
-        write.close();
     }
 
     public String getName()
