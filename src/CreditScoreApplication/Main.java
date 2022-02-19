@@ -33,7 +33,7 @@ import java.util.Scanner;
                     System.out.println("8 - Zakończ");
 
 
-                    int userChoice = scanner.nextInt();
+                int userChoice = scanner.nextInt();
 
                     switch (userChoice) {
                         case 1 -> SuperUserDemo.demoAuthenticateSuperuser();
@@ -45,15 +45,9 @@ import java.util.Scanner;
                         case 7 -> address.AddAddress();
                         case 8 -> shouldContinue = false;
 
-                    }
                 }
             }
         }
-
-
-
-
-
-
+    }
 
 
